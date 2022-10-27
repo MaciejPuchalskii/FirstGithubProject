@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            int a = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
