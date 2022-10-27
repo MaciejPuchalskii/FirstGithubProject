@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
+            Console.Write("Input any number!:");
             int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your number is " + a);
+
         }
     }
 }
